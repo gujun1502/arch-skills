@@ -5,6 +5,10 @@ description: >-
   指出投标中存在的问题、评估我方资质与能力边界、判断投标响应中合理与不合理之处，并系统性挖掘"设在投标界限之外"的陷阱时使用——包括评奖壁垒陷阱、项目业绩双口径陷阱、
   利益交换/关系倾斜陷阱、固定报价与废标格式陷阱、合同风险转嫁与创优捆绑陷阱等。触发词："投标回顾""投标复盘""中标结果复盘""招标文件审查""投标决策""投标陷阱""废标风险"
   "评分反算""资质能力边界""评定分离""暗标""我方能排第几""这个标能不能投""招标埋了什么坑"，或当文件夹内有招标公告/招标文件/答疑/投标决策报告/中标候选人公示等需要归纳成一份复盘报告时。
+license: MIT (code) · CC BY 4.0 (docs) — attribution: Gu Jun / arch-skills.com
+author: Gu Jun (gujun1502)
+homepage: https://arch-skills.com/#skill/tender-bid-review
+source: https://github.com/gujun1502/arch-skills
 ---
 
 # 招投标复盘与陷阱审计 Tender Bid Review

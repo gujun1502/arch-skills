@@ -9,6 +9,10 @@ description: >-
   Skill safety auditor: scan a skill folder for secrets, personal data, network / filesystem / execution
   behaviour and prompt injection, infer an L1–L4 safety level, and produce a redacted copy. Use before
   installing, sharing or open-sourcing any skill.
+license: MIT (code) · CC BY 4.0 (docs) — attribution: Gu Jun / arch-skills.com
+author: Gu Jun (gujun1502)
+homepage: https://arch-skills.com/#skill/skill-safety-audit
+source: https://github.com/gujun1502/arch-skills
 ---
 
 # Skill 安全审计器 / Skill Safety Auditor

@@ -9,6 +9,10 @@ description: >-
   当用户提到"效果图评图/给这张图提意见/指方向/找概念/创意方向/概念方案/概念生成/风格定位/
   意向推演/概念推演/在图上标一下/帮我看看这张图"，或上传效果图、意向图、平面 PDF
   希望得到方向性、图形化的创意反馈时，务必使用本技能——即使用户没说"批注"二字也应触发。
+license: MIT (code) · CC BY 4.0 (docs) — attribution: Gu Jun / arch-skills.com
+author: Gu Jun (gujun1502)
+homepage: https://arch-skills.com/#skill/create-draw
+source: https://github.com/gujun1502/arch-skills
 ---
 
 # create-draw — 持笔的创意大师

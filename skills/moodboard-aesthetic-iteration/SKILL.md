@@ -3,6 +3,10 @@ name: moodboard-aesthetic-iteration
 description: 用「意向板 Mood Board + 关键词锚定 + 多框架量化打分 + 跨轮整改追踪」的方法，对设计方案效果图做客观审美评分与迭代提升，产出中文 markdown 报告并渲染成内嵌效果图的 PDF。当用户提到「效果图审美分析」「方案打分」「意向板对照」「设计迭代评审」「一轮一轮提升效果图」「mood board 评分」「第N轮审美报告」，或上传一组室内/建筑效果图希望对照意向图做客观评价时，使用本技能。
 type: workflow
 version: 1.0.0
+license: MIT (code) · CC BY 4.0 (docs) — attribution: Gu Jun / arch-skills.com
+author: Gu Jun (gujun1502)
+homepage: https://arch-skills.com/#skill/moodboard-aesthetic-iteration
+source: https://github.com/gujun1502/arch-skills
 ---
 
 # 意向板审美迭代法（Mood Board Aesthetic Iteration）

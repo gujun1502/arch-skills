@@ -13,6 +13,10 @@ description: |
   或文件夹里已有 ledger.json + 新版主 PDF 需要做第 N 轮核对时。
   全流程: 识别主文档与意见 → 提取双方文本 → 逐条核对意见是否落实 → 按红/蓝语义定色定位
   → 渲染批注 → 记入核销台账 → 输出批注版 PDF + 核对汇总。
+license: MIT (code) · CC BY 4.0 (docs) — attribution: Gu Jun / arch-skills.com
+author: Gu Jun (gujun1502)
+homepage: https://arch-skills.com/#skill/red-blue-pen-annotation
+source: https://github.com/gujun1502/arch-skills
 ---
 
 # 红蓝笔批注 Skill

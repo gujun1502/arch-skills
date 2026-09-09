@@ -1,6 +1,10 @@
 ---
 name: article-academic
 description: 学术性深度文章写作模板——以孙一腾《胶片定格的那一夜》（有方"檐下谈"系列，写斯塔尔住宅/案例住宅22号）为范本的"考据型非虚构"写法：决定性瞬间开场、多线人物汇聚、七幕谋篇、克制抒情的语调、硬数据考据与引用文献。当用户要写建筑/设计/艺术/文化领域的深度文章、公众号长文、案例研究叙事、作品评传、空间与时代的故事，或提到"学术性文章""深度稿""檐下谈风格""闲市集风格""非虚构写作""帮我写一篇关于某建筑/某作品/某事件的深度文章"时使用本技能；即使用户只说"写篇有深度的长文"，也应触发。
+license: MIT (code) · CC BY 4.0 (docs) — attribution: Gu Jun / arch-skills.com
+author: Gu Jun (gujun1502)
+homepage: https://arch-skills.com/#skill/article-academic
+source: https://github.com/gujun1502/arch-skills
 ---
 
 # 学术性深度文章写作（考据型非虚构）

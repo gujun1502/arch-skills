@@ -7,6 +7,10 @@ description: >
   fire protection systems (sprinklers, detection, smoke control), and MEP
   coordination strategies including ceiling void allocation, riser sizing, plant
   room planning, and BIM integration.
+license: MIT (code) · CC BY 4.0 (docs) — attribution: Gu Jun / arch-skills.com
+author: Gu Jun (gujun1502)
+homepage: https://arch-skills.com/#skill/building-services-electrical
+source: https://github.com/gujun1502/arch-skills
 ---
 
 # Building Services for Architects

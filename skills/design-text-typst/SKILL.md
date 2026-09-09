@@ -7,6 +7,10 @@ description: >-
   或说"用 Typst 排版"时使用。
   Typeset A3-landscape architecture / interior design booklets with Typst instead of InDesign:
   cover grid, key-figure strip, label/narrative columns, running heads, CJK-safe fonts.
+license: MIT (code) · CC BY 4.0 (docs) — attribution: Gu Jun / arch-skills.com
+author: Gu Jun (gujun1502)
+homepage: https://arch-skills.com/#skill/design-text-typst
+source: https://github.com/gujun1502/arch-skills
 ---
 
 # 设计文本 Typst 排版 / Design Booklet Typesetter

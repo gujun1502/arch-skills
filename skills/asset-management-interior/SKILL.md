@@ -12,6 +12,10 @@ description: >-
   这个方案够不够档次/对标什么水平"，或上传资管类办公的平面图、效果图、意向图时，使用本技能。
 type: workflow
 version: 1.0.0
+license: MIT (code) · CC BY 4.0 (docs) — attribution: Gu Jun / arch-skills.com
+author: Gu Jun (gujun1502)
+homepage: https://arch-skills.com/#skill/asset-management-interior
+source: https://github.com/gujun1502/arch-skills
 ---
 
 # 资管类室内空间设计智囊（Asset-Management Interior）

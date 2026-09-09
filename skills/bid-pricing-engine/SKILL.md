@@ -1,6 +1,10 @@
 ---
 name: bid-pricing-engine
 description: 投标报价的博弈论测算。当需要在密封投标中决定报价、评估中标概率、或分析评分规则（最低价 / 均值基准 / 均值×随机K）下的最优报价时使用。覆盖非对称扣分、基准价自影响、对手分布校准。含可交互的蒙特卡洛参考实现 bid-pricing-engine.jsx。
+license: MIT (code) · CC BY 4.0 (docs) — attribution: Gu Jun / arch-skills.com
+author: Gu Jun (gujun1502)
+homepage: https://arch-skills.com/#skill/bid-pricing-engine
+source: https://github.com/gujun1502/arch-skills
 ---
 
 # 报价博弈引擎 (Bid Pricing Game)
