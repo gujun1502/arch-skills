@@ -23,7 +23,7 @@ RULES = [
     ("pii", "crit", r"(?<!\d)\d{6}(?:19|20)\d{2}(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\d|3[01])\d{3}[\dXx](?!\d)", "national ID number (CN)"),
     ("fs", "crit", r"\b(rm\s+-rf?|shutil\.rmtree|os\.remove|os\.unlink|fs\.rmSync|fs\.unlinkSync|rimraf|Remove-Item|del\s+/[fq])\b", "deletes files or folders"),
     ("fs", "info", r"\b(open\([^)]*['\"][wa]b?['\"]|write_text|write_bytes|writeFile|writeFileSync|to_csv|to_excel|\.save\(|savefig|Out-File|Set-Content)", "writes files"),
-    ("net", "warn", r"\bhttps?://[^\s'\"`)>\]]+", "external URL"),
+    ("net", "info", r"\bhttps?://[^\s'\"`)>\]]+", "external URL"),
     ("net", "warn", r"\b(fetch\(|requests\.(?:get|post|put|delete)|urllib|httpx|aiohttp|axios|curl\b|wget\b|Invoke-WebRequest|WebFetch|WebSearch|playwright|selenium)", "network request"),
     ("exec", "crit", r"\b(subprocess\.|os\.system|os\.popen|exec\(|eval\(|child_process|execSync|spawn\(|Invoke-Expression|Start-Process|bash\s+-c|powershell\s+-c)", "executes commands / dynamic code"),
     ("ext", "crit", r"\b(smtplib|sendmail|sendgrid|twilio|mailgun|webhook|wa\.me|api\.kit\.com|buttondown|place_order|create_order|下单|转账|发送邮件|推送到微信|飞书机器人|钉钉机器人)\b", "sends, orders or pushes externally"),
@@ -92,7 +92,7 @@ def audit(paths, words=(), redact_dir=None):
     level = 1
     if counts.get("fs"):
         level = 2
-    if counts.get("net") or counts.get("ext"):
+    if any(f["cat"] == "net" and f["sev"] != "info" for f in findings) or counts.get("ext"):
         level = max(level, 3)
     if counts.get("exec") or any(f["cat"] == "ext" and f["sev"] == "crit" for f in findings):
         level = 4
